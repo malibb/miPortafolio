@@ -19,3 +19,14 @@ header {
 .img-proyecto{
     width: 100%;
 }
+
+.icono-contacto{
+    font-size: 3rem;
+    color: black;
+    margin: 4px 8px;
+
+}
+
+#contacto{
+    height: 80vh;
+}

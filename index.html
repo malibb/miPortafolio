@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-black text-white">
+    <nav class="navbar fixed-top navbar-expand-lg bg-black text-white">
         <div class="container">
             <a class="navbar-brand text-white" href="#">Malinali</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,10 +39,10 @@
                         <a class="text-white nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-white nav-link" href="#">Testimonios</a>
+                        <a class="text-white nav-link" href="#testimonios">Testimonios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-white nav-link" href="#">Contacto</a>
+                        <a class="text-white nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -126,7 +126,7 @@
             </div>
         </section>
 
-        <section id="Proyectos">
+        <section id="proyectos">
             <div class="album py-5 bg-body-tertiary">
                 <div class="container">
                     <h2 class="my-5 border-bottom pb-2">Proyectos</h2>
@@ -211,7 +211,8 @@
             </div>
         </section>
 
-        <section id="Testimonios">
+        <section id="testimonios" class="container">
+            <h2 class="my-5">Testimonios</h2>
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -224,19 +225,22 @@
 
                 <!-- Sección editable del carrusel -->
                 <div class="carousel-inner">
-                    <div class="carousel-item active " data-bs-interval="10000">
-                        <div class="card mb-3 border-0" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/pato.jpeg" class="img-fluid rounded-circle"
-                                        alt="Testimonio Mark Zukemberg">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mr. Duck</h5>
-                                        <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
-                                        <p class="card-text">Malinali es una profesional comprometida con la tecnología,
-                                            y adora a los patos.</p>
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="d-flex justify-content-center">
+                            <div class="card mb-3 border-0" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="assets/pato.jpeg" class="img-fluid rounded-circle"
+                                            alt="Testimonio Mark Zukemberg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Mr. Duck</h5>
+                                            <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
+                                            <p class="card-text">Malinali es una profesional comprometida con la
+                                                tecnología,
+                                                y adora a los patos.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -244,37 +248,42 @@
                     </div>
 
                     <div class="carousel-item " data-bs-interval="2000">
-                        <div class="card mb-3 border-0" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/pato.jpeg" class="img-fluid rounded-circle"
-                                        alt="Testimonio Mark Zukemberg">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mark Zukemberg</h5>
-                                        <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
-                                        <p class="card-text">Malinali es una profesional comprometida con la tecnología,
-                                            y adora a los patos.</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="card mb-3 border-0" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="assets/pato.jpeg" class="img-fluid rounded-circle"
+                                            alt="Testimonio Mark Zukemberg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Mark Zukemberg</h5>
+                                            <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
+                                            <p class="card-text">Malinali es una profesional comprometida con la
+                                                tecnología,
+                                                y adora a los patos.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item" >
-                        <div class="card mb-3 border-0" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/pato.jpeg" class="img-fluid rounded-circle"
-                                        alt="Testimonio Mark Zukemberg">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mark Zukemberg</h5>
-                                        <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
-                                        <p class="card-text">Malinali es una profesional comprometida con la tecnología,
-                                            y adora a los patos.</p>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card mb-3 border-0" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="assets/pato.jpeg" class="img-fluid rounded-circle"
+                                            alt="Testimonio Mark Zukemberg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Mark Zukemberg</h5>
+                                            <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
+                                            <p class="card-text">Malinali es una profesional comprometida con la tecnología,
+                                                y adora a los patos.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -296,10 +305,43 @@
                 </button>
             </div>
         </section>
+
+        <section id="contacto">
+            <div class="px-4 py-5 my-5 text-center">
+                <h1 class="display-6 fw-bold text-body-emphasis">Contáctame</h1>
+                <i class="bi-file-code icono-gigante"></i>
+                <h1 class="display-6 fw-bold text-body-emphasis">Uniendo creatividad y tecnología para dar vida a las ideas.</h1>
+                <div class="col-lg-6 mx-auto">
+                    <h4>Estoy emocionado/a por lo que podemos crear juntos. </h4>
+                    <h3>Conectémonos.</h3>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <i class="bi-github icono-contacto"></i>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <i class="bi-instagram icono-contacto"></i>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <i class="bi-linkedin icono-contacto"></i>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <i class="bi-twitter-x icono-contacto"></i>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <i class="bi-tiktok icono-contacto"></i>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <i class="bi-envelope icono-contacto"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+        </section>
     </main>
 
-    <footer id="contacto">
-        <p><small>Imágenes de Freepik</small></p>
+    <p><small>Imágenes de Freepik</small></p>
+
+    <footer>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
